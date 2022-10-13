@@ -1,0 +1,5 @@
+================
+sinar.indicators
+================
+
+User documentation
