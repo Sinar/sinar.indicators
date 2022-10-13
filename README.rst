@@ -31,7 +31,7 @@
 sinar.indicators
 ================
 
-Add-on for Plone provding monitoring and evaluation indicators
+Add-on for Plone providing monitoring and evaluation indicators
 
 Features
 --------
@@ -79,15 +79,12 @@ and then running ``bin/buildout``
 Authors
 -------
 
-Provided by awesome people ;)
-
+- Khairil Yusof <khairil.yusof@sinarproject.org>
 
 Contributors
 ------------
 
-Put your name here, you deserve it!
-
-- ?
+- 
 
 
 Contribute
