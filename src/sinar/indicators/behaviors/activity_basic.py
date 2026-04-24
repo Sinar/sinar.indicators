@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from plone import schema
-from plone.autoform import directives
+
 from plone.autoform.interfaces import IFormFieldProvider
 from plone.supermodel import model
 from plone.supermodel.directives import fieldset
@@ -33,7 +33,7 @@ class IActivityBasic(model.Schema):
         required=False,
     )
 
-    activity_participants_other= schema.Int(
+    activity_participants_other = schema.Int(
         title=_(u'Other Participants'),
         description=_(u'Number of non-Binary Participants'),
         required=False,
@@ -42,16 +42,14 @@ class IActivityBasic(model.Schema):
     # fieldset set the tabs on the edit form
 
     fieldset(
-            'indicators',
-            label=_(u'Indicators'),
-            fields=[
-                'activity_participants_male',
-                'activity_participants_female',
-                'activity_participants_other',
-                ],
-            )
-
-
+        'indicators',
+        label=_(u'Indicators'),
+        fields=[
+            'activity_participants_male',
+            'activity_participants_female',
+            'activity_participants_other',
+        ],
+    )
 
 
 @implementer(IActivityBasic)
